@@ -1,0 +1,24 @@
+a{
+  text-decoration: none;
+  color: rgb(115, 134, 161);
+}
+a:active, a:hover{
+  color: beige;
+  font-size: 20px;
+  transition-duration: 300ms;
+  transition-timing-function: ease ;
+  transform-style: preserve-3d;
+}
+
+.first{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+img:hover{
+  width: 300px;
+  height: 300px;
+  transition-duration: 300ms;
+  transition-timing-function: ease ;
+  transform-style: preserve-3d;
+}
